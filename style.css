@@ -1,0 +1,279 @@
+ul.tabs {
+    list-style-type:none;
+    overflow: hidden;
+    background-image:url("assets/img/second_image.png");
+
+}
+a.unbold {
+    font-style:normal;
+    font-family:mySecondFont;
+}
+p.h1 {
+    font-size:25px;
+}
+
+p.fourm_gap {
+    margin-right:20px;
+}
+
+img.speech_bubble{
+    width:100px;
+    height:100px;
+    margin-top:12px; 
+    margin-right:32px;
+	margin-bottom:15px;
+    opacity:0.8;
+}
+
+div.hello {
+    margin-left:350px;
+    margin-right:200px;
+    margin-top:15px;
+}
+
+ul.archive {
+    list-style-type:none;
+    overflow: hidden;
+    margin:0;
+    padding:0;
+    border: 2px;
+    border-style:solid;
+    width:1175px;
+    height:150px;
+    border-color:#731b1a;
+
+
+}
+ul.thelong {
+    list-style-type:none;
+    overflow: hidden;
+    margin:0;
+    padding:0;
+    border: 2px;
+    border-style:solid;
+    border-color:#731b1a;
+    width:1175px;
+    height:50px;
+    margin-bottom:30px;
+
+}
+
+li.archive a {
+    display: block;
+    color:black;
+    padding: 10px 45px;
+    text-decoration: none;
+}
+li.fourm a {
+    color:black;
+    text-decoration: none;
+    margin-top:12px;
+    margin-left:20px;
+    font-family:myThirdFont;
+    font-size:16px;
+}
+
+input[type=text] {
+    width: 170px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url("assets/img/search-icon-png-2.png");
+    background-position: 0px; 
+    background-size:20px;
+    background-position-x:4px;
+    background-repeat: no-repeat;
+    padding: 2px 2px 2px 30px;
+    color:black;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s  ease-in-out;
+}
+input[type=text]:focus {
+    width: 45%;
+}
+li.tabs a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 10px 45px;
+    text-decoration: none;
+    font-family: myThirdFont;
+    border-bottom: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    font-size:15px;
+
+   
+}
+ul.nav {
+    list-style-type:none;
+    overflow: hidden;
+    margin:0;
+}
+
+textarea.textbox {
+    margin-left:200px;
+    margin-right:200px;
+    margin-top:20px;
+    resize:none;
+    width:1400px;
+    height:200px;
+    border: 3px;
+    border-style:solid;
+    border-color:#731b1a;
+}
+
+button.textbox {
+    margin-left:200px;
+    margin-top:20px;
+    border-color:#731b1a;
+
+}
+
+p.when_created {
+    font-family:myforthFont;
+    opacity:0.9;
+    font-weight:600;
+}
+
+li.search {
+    display: block;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    font-family: myThirdFont;
+    border-bottom: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    font-size:15px;
+    margin-top:7px;
+    margin-left:1300px;
+    border-bottom: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
+div.info {
+    margin-top: 40px;
+    position:center;
+    margin-left: 80px;
+    background-color: white;
+    color:black;
+    margin-right: 80px;
+    margin-bottom: 0 auto;
+    font-family:mySecondFont;
+}
+
+div.infot2 {
+    margin-top: 2px;
+    position:center;
+    margin-left: 80px;
+    background-color: white;
+    color:black;
+    margin-right: 80px;
+    margin-bottom: 0 auto;
+    font-family:mySecondFont;
+}
+
+div.box123 {
+    background-image:url("assets/img/fourms_box.png");
+    width:50px;
+    height:50px;
+}
+div.nav_bar {
+    margin-top:0;
+}
+
+h1.main_head {
+    margin-top:10px;
+    margin-left:0px;
+    margin-bottom:5px;
+    color:black;
+}
+
+h2.main_head {
+    margin-top:0px;
+    margin-left:0px;
+    margin-bottom:5px;
+    color:black;
+}
+
+img.bar {
+    max-width: 100%;
+    margin-top: 0 auto;
+    
+}
+img.bar2 {
+    max-width: 100%;
+    margin-top: 0 auto;
+    
+}
+
+p.margin {
+    margin-top:20px;
+}
+
+img.right_side {
+    margin-left:25px;
+    margin-bottom:10px;
+}
+img.left_side {
+    display: block;
+    margin-right:25px;
+    margin-bottom:10px;
+    left:0;
+}
+
+img.banner {
+    margin: 0 ;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+p.inside_txt {
+    margin-left:20px;
+    font-family:myforthFont;
+    color:#c3c3c3;
+}
+h2.this_is_for_the_second_header {
+    font-family:mySecondFont;
+    font-size:25px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url("assets/fonts/MutantAcademyBB.ttf");
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url("assets/fonts/Roboto-Light.ttf");
+}
+@font-face {
+    font-family: myThirdFont;
+    src: url("assets/fonts/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: myforthFont;
+    src: url("assets/fonts/Roboto-Italic.ttf");
+}
+
+
+
+
+li.tabs {
+    float: left;
+}
+
+
+body {
+font-family:mySecondFont;
+}
+
+li.tabs a:hover {
+    border-bottom: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: red;
+    
+}
